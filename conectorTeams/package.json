@@ -1,0 +1,23 @@
+{
+  "name": "conector-teams",
+  "version": "1.0.0",
+  "description": "Conector eva para teams",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "test"
+  },
+  "author": "Daniel Bravo , Pablo Godoy",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.4",
+    "body-parser": "^1.19.0",
+    "botbuilder": "^4.14.1",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongodb": "^4.1.4",
+    "nodemon": "^2.0.4",
+    "request": "^2.88.2"
+  }
+}
